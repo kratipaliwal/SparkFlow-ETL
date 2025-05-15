@@ -28,7 +28,7 @@ Implements business logic using:
 - Spark SQL  
 
 ### Sample Use Cases:
-- Customers who bought AirPods after iPhones  
+- Customers who bought AirPods after buying iPhones  
 - Customers who only bought iPhones and AirPods
 
 ---
@@ -45,7 +45,7 @@ Persists output to:
 
 1. Import notebooks into **Databricks Community Edition**
 2. Attach all notebooks to a running cluster
-3. Open `apple_analysis.ipynb`
+3. Open `workflow_runner.ipynb`
 4. Set the workflow type:
    ```python
    name = "OnlyIphoneAndAirpodWorkFlow"  # or "AirpodsAfterIphoneWorkFlow"
@@ -62,7 +62,6 @@ Persists output to:
 
 - Apache Spark (PySpark)  
 - Databricks Community Edition  
-- Delta Lake  
 - Spark SQL  
 - Factory Design Pattern
 

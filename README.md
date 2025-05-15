@@ -1,13 +1,13 @@
 # SparkFlow-ETL
 **Overview**
-This project demonstrates how to build modular and scalable ETL (Extract, Transform, Load) pipelines using Databricks Community Edition with PySpark, the Python API for Apache Spark.
-It covers data ingestion from multiple formats, transformation using Spark SQL and the DataFrame API, and loading results into storage layers like DataLakes and Delta tables.
+-This project demonstrates how to build modular and scalable ETL (Extract, Transform, Load) pipelines using Databricks Community Edition with PySpark, the Python API for Apache Spark.
+-It covers data ingestion from multiple formats, transformation using Spark SQL and the DataFrame API, and loading results into storage layers like DataLakes and Delta tables.
 
 **1. Extractor Module**
 Uses a Factory Pattern to load data from:
-CSV
-Parquet
-Delta Tables
+i.CSV
+ii.Parquet
+iii.Delta Tables
 
 **2. Transformer Module**
 Implements business logic using:

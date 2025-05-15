@@ -1,4 +1,3 @@
-
 # SparkFlow-ETL
 
 ## 📌 Overview
@@ -78,3 +77,20 @@ Persists output to:
 - Identifies customers who **only bought iPhones and AirPods**
 - Output path:  
   `/FileStore/tables/Output/OnlyIphoneAndAirpods`
+
+---
+
+## 📂 Sample Dataset
+
+This project uses a small **sample dataset**  curated for demonstration and testing of the ETL framework. It contains a small number of records to simulate real-world customer transactions.
+
+1. **Customers**
+   - Fields: `customer_id`, `customer_name`, `join_date`, `location`
+
+2. **Transactions**
+   - Fields: `transaction_id`, `customer_id`, `product_name`, `transaction_date`
+
+3. **Products**
+   - Fields: `product_id`, `product_name`
+
+These files are stored in CSV and Delta formats under `/FileStore/tables/`, and are used to demonstrate the full ETL pipeline from ingestion to output.
